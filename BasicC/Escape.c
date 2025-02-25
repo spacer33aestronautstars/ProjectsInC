@@ -7,7 +7,7 @@ int main(){
     printf(" \bMoves the cursor to the previous position of the current line\n");
     printf("Moves the cursor to beginning of the current line.\r");
     Beep(1000, 300);          // Windows API Beep
-    printf("Vertical Tab Test: Hello\vWorld\n"); // May not show effect
+    printf("Vertical Tab Test: Hello\vWorld\n"); 
     printf("New Line Test: Hello\nWorld\n");
     return 0;
 }
